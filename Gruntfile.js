@@ -106,7 +106,7 @@ module.exports = function(grunt) {
 				tasks: 'themes'
 			},
 			serve: {
-				files: [ '*.html', '*.md' ],
+				files: [ '*.html', '*.md', 'css/*.css' ],
 				options: { livereload: true }
 			}
 		}
