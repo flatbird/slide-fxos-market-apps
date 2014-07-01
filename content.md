@@ -1,12 +1,12 @@
 ## Firefox Marketplace の
-## アプリを色々調べてみた
+## アプリを色々調べてみました
 
 ---
 #### 自己紹介
 <h2>ひらとり</h2>
 
 <img src="assets/img/flatbird.png" class="flatbird nomargin">
-<div style="font-size:30px">(@flatbirdH)</div>
+<h3>(@flatbirdH)</h3>
 
 - Firefox OS コミュニティ
 - html5j Webプラットフォーム部
@@ -21,12 +21,14 @@
 ##### <http://flatbird.github.io/LT-fxos-marketplace/>
 
 ---
+#### 前々回 LT
 ### Firefox Marketplace API 紹介
 
 ![API](assets/img/search-api.png)
 
 ---
-#### こんなの作りました、という話
+#### 前々回 LT
+### こんなの作りました…という話
 
 ![firechart](assets/img/firechart.png)
 
@@ -39,7 +41,7 @@
 ## どれだけ増えてる？
 
 ---
-### 1 年で
+## 1 年で
 ## 1,209 個→4,287 個へ
 ![app count](assets/img/count.png)
 
@@ -47,12 +49,15 @@
 ## まだまだ少ない？
 
 ---
+#### 少し前の記事
 ![fxos vice presidend](assets/img/fxos-vice.png)<!-- .element: style="width: 100%" -->
 
 ##### <http://weekly.ascii.jp/elem/000/000/217/217854/>
 
 ---
 ### 「Firefox OSデバイス向けのアプリで、マーケットプレイスの中にあるものはそれほど多くない」<!-- .element: class="fragment" data-fragment-index="1" -->
+
+<br>
 ### 「人気があるのは“ホスティッド”で、全体の90％程度」<!-- .element: class="fragment" data-fragment-index="2" -->
 
 ---
@@ -65,7 +70,7 @@
 ### 実際のアプリ数は？<!-- .element: class="fragment" -->
 
 ---
-### ホスト型が 90%
+### ホスト型が 90% で、
 <h3 style="margin-bottom: 30px" class="fragment">
 	マーケットのパッケージ型アプリ
 	<span class="strong red">2172</span> 個
@@ -76,131 +81,132 @@
 </h3>
 
 ---
-### Firefox OS アプリは見かけより多い。
-### とはいっても、、、<!-- .element: class="fragment" -->
+## Firefox OS アプリは
+## 見かけより多い！
+
+---
+## とはいっても、、、
 
 ---
 ### 日本語アプリ少ない！
 
-#### Total: 4273 (2014/06/30)
-
-<!-- .element: id="hoge" -->
+#### Total: 4288 (2014/07/01)
 
 <table id="locale-table">
-	<thead>
-		<tr>
-			<th>#</th>
-			<th>locale</th>
-			<th>count</th>
-			<th>%</th>
-			<th>#</th>
-			<th>locale</th>
-			<th>count</th>
-			<th>%</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>1</td>
-			<td>en-US</td>
-			<td>34</td>
-			<td>79.06%</td>
-			<td>11</td>
-			<td>tr</td>
-			<td>1</td>
-			<td>2.32%</td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>es</td>
-			<td>8</td>
-			<td>18.6%</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td>pt-BR</td>
-			<td>4</td>
-			<td>9.3%</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td>fr</td>
-			<td>3</td>
-			<td>6.97%</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>5</td>
-			<td>pl</td>
-			<td>3</td>
-			<td>6.97%</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>6</td>
-			<td>de</td>
-			<td>2</td>
-			<td>4.65%</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>7</td>
-			<td>it</td>
-			<td>2</td>
-			<td>4.65%</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>8</td>
-			<td>hu</td>
-			<td>2</td>
-			<td>4.65%</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>9</td>
-			<td>el</td>
-			<td>1</td>
-			<td>2.32%</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>10</td>
-			<td>ru</td>
-			<td>1</td>
-			<td>2.32%</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</tbody>
+<thead>
+<tr>
+<th>#</th>
+<th>locale</th>
+<th>count</th>
+<th>%</th>
+<th>#</th>
+<th>locale</th>
+<th>count</th>
+<th>%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>en-US</td>
+<td>3528</td>
+<td>82.2%</td>
+<td>11</td>
+<td>el</td>
+<td>63</td>
+<td>1.4%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>es</td>
+<td>906</td>
+<td>21.1%</td>
+<td>12</td>
+<td>nl</td>
+<td>50</td>
+<td>1.1%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>pt-BR</td>
+<td>295</td>
+<td>6.8%</td>
+<td>13</td>
+<td>zh-CN</td>
+<td>42</td>
+<td>0.9%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>de</td>
+<td>254</td>
+<td>5.9%</td>
+<td>14</td>
+<td>ja</td>
+<td>38</td>
+<td>0.8%</td>
+</tr>
+<tr>
+<td>5</td>
+<td>fr</td>
+<td>231</td>
+<td>5.3%</td>
+<td>15</td>
+<td>zh-TW</td>
+<td>36</td>
+<td>0.8%</td>
+</tr>
+<tr>
+<td>6</td>
+<td>pt-PT</td>
+<td>202</td>
+<td>4.7%</td>
+<td>16</td>
+<td>cs</td>
+<td>29</td>
+<td>0.6%</td>
+</tr>
+<tr>
+<td>7</td>
+<td>it</td>
+<td>201</td>
+<td>4.6%</td>
+<td>17</td>
+<td>ar</td>
+<td>25</td>
+<td>0.5%</td>
+</tr>
+<tr>
+<td>8</td>
+<td>pl</td>
+<td>201</td>
+<td>4.6%</td>
+<td>18</td>
+<td>ro</td>
+<td>25</td>
+<td>0.5%</td>
+</tr>
+<tr>
+<td>9</td>
+<td>hu</td>
+<td>101</td>
+<td>2.3%</td>
+<td>19</td>
+<td>ca</td>
+<td>24</td>
+<td>0.5%</td>
+</tr>
+<tr>
+<td>10</td>
+<td>ru</td>
+<td>75</td>
+<td>1.7%</td>
+<td>20</td>
+<td>tr</td>
+<td>22</td>
+<td>0.5%</td>
+</tr>
+</tbody>
 </table>
 
 ---
@@ -214,22 +220,38 @@
 </ul>
 
 ---
+## ジレンマ
+### 市場がなければアプリは増えない
+### アプリがなければ市場シェア増えない
+
+---
 ## そこで・・・
 
-<img src="assets/img/cordova_bot.png" alt="cordova bot" class="cordova">
+ホスト型もあるけど、、、
 
+---
+<img src="assets/img/cordova_bot.png" alt="cordova bot" class="cordova nomargin">
+
+#### Cordova 君 <!-- .element: class="nomargin" -->
 
 ---
 ### Cordova (PhoneGap)
-- 2014年2月、Cordova 3.4 から Firefox OS サポート。
-- Android, iPhone さらに Windows Phone も！
+- 2014年2月、Co-rdova 3.4 から Firefox OS サポート
+- クロスプラットフォームで、Android, iOS さらに Windows Phone も！
+- パッケージ型 (=オフライン) アプリ
+- アプリストアに置ける
+
 ![hybrid](assets/img/hybrid.png) <!-- .element: style="width:80%;" -->
 
-### 大きな市場を一気に狙えるかも。。。<!-- .element: class="fragment" -->
+---
+### Cordova なら
+### Firefox OS と同時に
+### Android/iOS を一緒に狙えるかも。。。
 
 ---
 ### 実は、マーケットプレースには、
-<h3 class="fragment">既に <span style="color:red">60 個</span>以上の Cordova アプリが！</h3>
+<h3 class="fragment" data-fragment-index="1">既に <span style="color:red">60 個</span>以上の Cordova アプリが！</h3>
+#### (2014/07/01 で 67 個) <!-- .element: class="fragment" data-fragment-index="1" -->
 
 ---
 ## Cordova Firefox OS 
@@ -292,7 +314,7 @@
 
 ---
 #### パッケージ型でも
-### 87.2% (2151/2467) は
+### 86.8% (2172個/2500個) は
 #### 特権アプリ (privileged) でない
 
 - つまり、Firefox OS 固有の Web API ほとんど使ってない
@@ -354,9 +376,9 @@
 
 ---
 ### あれ？
-- コンタクトリスト取れない？<!-- .element: class="fragment" -->
-- あ、マニフェストに `"type": "privileged"` ついてなかった。<!-- .element: class="fragment" -->
-- permission も設定して、Firefox OS で再確認。<!-- .element: class="fragment" -->
+- コンタクトリスト取れない？
+- あ、マニフェストに `"type": "privileged"` ついてなかった。
+- permission も設定して、Firefox OS で再確認。
 
 ---
 ## 真っ白。。。
@@ -420,53 +442,79 @@
 ### 調べてみよう！<!-- .element: class="fragment" -->
 
 ---
-#### パッケージ型アプリで
-#### よく使われている .js ファイル
+### パッケージ型アプリで
+### よく使われている .js ファイル
 
-#### Total: 2493 (2014/06/30)
+---
+#### *.js in packaged apps
+#### Total: 2505
 
-| # | js | count | % | name | type | # | js | count | % | name | type |
-|---|----|-------|---|------|------|---|----|-------|---|------|------|
-|1 | jquery.js | 1224 | 49.0% |  | dom | 11 | bootstrap.js | 87 | 3.4% |  | ui framework|
-|2 | jquery.mobile.js | 386 | 15.4% |  | ui framework | 12 | hmac-md5.js | 71 | 2.8% | CryptoJS | utility|
-|3 | c2runtime.js | 149 | 5.9% | Construct 2 | game engine | 13 | cordova_plugins.js | 63 | 2.5% | Cordova | hybrid|
-|4 | c2webappstart.js | 129 | 5.1% | Construct 2 | game engine | 14 | underscore.js | 60 | 2.4% |  | utility|
-|5 | receiptverifier.js | 116 | 4.6% |  | boilerplate | 15 | angular.js | 54 | 2.1% |  | mvx|
-|6 | require.js | 105 | 4.2% |  | utility | 16 | modernizr.js | 47 | 1.8% |  | utility|
-|7 | zepto.js | 103 | 4.1% |  | dom | 17 | seekbars.js | 43 | 1.7% | Building Blocks | ui framework|
-|8 | l10n.js | 100 | 4.0% |  | utility | 18 | action_menu.js | 43 | 1.7% | Building Blocks | ui framework|
-|9 | cordova.js | 100 | 4.0% | Cordova | hybrid | 19 | backbone.js | 40 | 1.6% |  | mvx|
-|10 | inneractive.js | 87 | 3.4% | inneractive | ad network | 20 | idangerous.swiper.js | 37 | 1.4% | Swiper | ui control|
+| # | js | count | % | name | type |
+|---|----|-------|---|------|------|
+|1 | jquery.js | 1231 | 49.1% |  | dom|
+|2 | jquery.mobile.js | 388 | 15.4% |  | ui framework|
+|3 | c2runtime.js | 153 | 6.1% | Construct 2 | game engine|
+|4 | c2webappstart.js | 133 | 5.3% | Construct 2 | game engine|
+|5 | receiptverifier.js | 116 | 4.6% |  | boilerplate|
+|6 | require.js | 106 | 4.2% |  | utility|
+|7 | zepto.js | 104 | 4.1% |  | dom|
+|8 | l10n.js | 101 | 4.0% |  | utility|
+|9 | cordova.js | 101 | 4.0% | Cordova | hybrid|
+|10 | inneractive.js | 87 | 3.4% | inneractive | ad network|
+
+---
+#### *.js in packaged apps (contd.)
+
+| # | js | count | % | name | type |
+|---|----|-------|---|------|------|
+|11 | bootstrap.js | 87 | 3.4% |  | ui framework|
+|12 | hmac-md5.js | 71 | 2.8% | CryptoJS | utility|
+|13 | cordova_plugins.js | 64 | 2.5% | Cordova | hybrid|
+|14 | underscore.js | 60 | 2.3% |  | utility|
+|15 | angular.js | 54 | 2.1% |  | mvx|
+|16 | modernizr.js | 47 | 1.8% |  | utility|
+|17 | seekbars.js | 43 | 1.7% | Building Blocks | ui framework|
+|18 | action_menu.js | 43 | 1.7% | Building Blocks | ui framework|
+|19 | backbone.js | 41 | 1.6% |  | mvx|
+|20 | idangerous.swiper.js | 37 | 1.4% | Swiper | ui control|
 
 
 ---
-#### 特権 (privileged) アプリで
-#### よく使われている .js ファイル
+### 特権 (privileged) アプリで
+### よく使われている .js ファイル
 
-#### Total: 323 (2014/06/30)
+---
+#### *.js in privileged apps
+#### Total: 326
 
-| # | js | count | percent | name | type |
-|---|----|-------|---------|------|------|
-| 1 | jquery.js | 179 | 55.41% | jquery.js | dom |
-| 2 | receiptverifier.js | 57 | 17.64% | receiptverifier.js | boilerplate |
-| 3 | hmac-md5.js | 52 | 16.09% | CryptoJS | utility |
-| 4 | jquery.mobile.js | 49 | 15.17% | jquery.mobile.js | ui framework |
-| 5 | l10n.js | 35 | 10.83% | l10n.js | utility |
-| 6 | require.js | 22 | 6.81% | require.js | utility |
-| 7 | zepto.js | 20 | 6.19% | zepto.js | dom |
-| 8 | cordova.js | 16 | 4.95% | Cordova | hybrid |
-| 9 | underscore.js | 16 | 4.95% | underscore.js | utility |
-| 10 | bootstrap.js | 15 | 4.64% | bootstrap.js | ui framework |
-| 11 | cordova_plugins.js | 13 | 4.02% | Cordova | hybrid |
-| 12 | angular.js | 13 | 4.02% | angular.js | mvx |
-| 13 | seekbars.js | 13 | 4.02% | Building Blocks | ui framework |
-| 14 | enyo.js | 12 | 3.71% | enyo.js | ui framework |
-| 15 | backbone.js | 12 | 3.71% | backbone.js | mvx |
-| 16 | async_storage.js | 12 | 3.71% | async_storage.js | Gaia/Shared |
-| 17 | action_menu.js | 11 | 3.4% | Building Blocks | ui framework |
-| 18 | jquery.transit.js | 8 | 2.47% | jquery.transit.js | jquery plugin |
-| 19 | offline.js | 8 | 2.47% | offline.js | utility |
-| 20 | md5.js | 8 | 2.47% | CryptoJS | utility |
+| # | js | count | % | name | type |
+|---|----|-------|---|------|------|
+|1 | jquery.js | 180 | 55.2% |  | dom|
+|2 | receiptverifier.js | 57 | 17.4% |  | boilerplate|
+|3 | hmac-md5.js | 52 | 15.9% | CryptoJS | utility|
+|4 | jquery.mobile.js | 50 | 15.3% |  | ui framework|
+|5 | l10n.js | 36 | 11.0% |  | utility|
+|6 | require.js | 23 | 7.0% |  | utility|
+|7 | zepto.js | 21 | 6.4% |  | dom|
+|8 | cordova.js | 17 | 5.2% | Cordova | hybrid|
+|9 | underscore.js | 16 | 4.9% |  | utility|
+|10 | bootstrap.js | 15 | 4.6% |  | ui framework|
+
+---
+#### *.js in privileged apps (contd.)
+
+| # | js | count | % | name | type |
+|---|----|-------|---|------|------|
+|11 | cordova_plugins.js | 14 | 4.2% | Cordova | hybrid|
+|12 | angular.js | 13 | 3.9% |  | mvx|
+|13 | seekbars.js | 13 | 3.9% | Building Blocks | ui framework|
+|14 | backbone.js | 13 | 3.9% |  | mvx|
+|15 | enyo.js | 12 | 3.6% |  | ui framework|
+|16 | async_storage.js | 12 | 3.6% |  | Gaia/Shared|
+|17 | action_menu.js | 11 | 3.3% | Building Blocks | ui framework|
+|18 | jquery.transit.js | 8 | 2.4% |  | jquery plugin|
+|19 | offline.js | 8 | 2.4% |  | utility|
+|20 | md5.js | 8 | 2.4% | CryptoJS | utility|
 
 ---
 ### ご清聴ありがとうございました！
