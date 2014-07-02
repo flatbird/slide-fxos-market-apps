@@ -41,7 +41,7 @@
 ## どれだけ増えてる？
 
 ---
-## 1 年で
+### 1 年で
 ## 1,209 個→4,287 個へ
 ![app count](assets/img/count.png)
 
@@ -227,26 +227,25 @@
 ---
 ## そこで・・・
 
-ホスト型もあるけど、、、
-
 ---
 <img src="assets/img/cordova_bot.png" alt="cordova bot" class="cordova nomargin">
 
-#### Cordova 君 <!-- .element: class="nomargin" -->
+### Cordova 君 <!-- .element: class="fragment nomargin" -->
 
 ---
 ### Cordova (PhoneGap)
-- 2014年2月、Co-rdova 3.4 から Firefox OS サポート
+- 2014年2月、Cordova 3.4 から Firefox OS サポート
 - クロスプラットフォームで、Android, iOS さらに Windows Phone も！
-- パッケージ型 (=オフライン) アプリ
 - アプリストアに置ける
+- パッケージ型 (=オフライン) アプリ
 
 ![hybrid](assets/img/hybrid.png) <!-- .element: style="width:80%;" -->
 
 ---
 ### Cordova なら
-### Firefox OS と同時に
-### Android/iOS を一緒に狙えるかも。。。
+### Firefox OS アプリで
+### 大きな市場 (Android/iOS) を
+### 一緒に狙えるかも!
 
 ---
 ### 実は、マーケットプレースには、
@@ -265,7 +264,7 @@
 <img src="assets/img/webchemy1.png" class="nomargin" >
 <img src="assets/img/webchemy2.png" class="nomargin" >
 
-##### Firefox OS, Android, Chrome Apps
+##### Firefox OS, Android, (Chrome Apps)
 
 ---
 ### MoeDict (萌典)
@@ -314,14 +313,14 @@
 
 ---
 #### パッケージ型でも
-### 86.8% (2172個/2500個) は
-#### 特権アプリ (privileged) でない
+<h2>86.8% <span style="font-size:.4em">(2172個/2500個)は</span></h2>
+### 特権 (privileged) なし
 
-- つまり、Firefox OS 固有の Web API ほとんど使ってない
-- Cordova で行けるんじゃ？
+- Firefox OS 固有の Web API ほとんど使ってない<!-- .element: class="fragment" -->
+- 簡単に Cordova に移行できるんじゃ？<!-- .element: class="fragment" -->
 
 ---
-### Firefox OS アプリを検討する際は、
+### Firefox OS アプリを作る際は、
 ### Cordova も検討するといいかも
 
 ---
@@ -337,8 +336,8 @@
 ---
 ### スタイルを素で組むの面倒！
 - ヘッダとかフッタとかメニューとか、、、
+- スマホアプリっぽい見た目をサクっと用意したい。
 - ネイティブ開発なら何もしなくても付いてくるのに。。。
-- スマホアプリっぽい見た目をサクっと用意してほしい。
 
 ---
 ### モバイル UI フレームワークを
@@ -365,7 +364,7 @@
 - ４月からオープンソース化
 
 ---
-### これが後に不幸を呼ぶ。。。
+### これが不幸を呼ぶ。。。
 
 ---
 ### 大体動く所まで来た・・・
@@ -402,27 +401,29 @@
 
 <img src="assets/img/csperror.png" style="width: 100%">
 
-#### テンプレートエンジンで Function コンストラクタを使ってる所
+#### Kendo UI のテンプレートエンジンで
+#### Function コンストラクタを使ってる所
 
 ---
-## 教訓
+### 教訓
 - Firefox OS アプリはとりあえず `"type": "privileged"` にしとく
-	- 常に強制 CSP を有効化
+	- 常に強制 CSP ポリシーを有効化
 	- いつ systemXHR 欲しくなるか分からないし、、、
 - Corodva なら &lt;meta&gt; で CSP 付けておくといいかも
 	- Webkit 系のブラウザで有効
-	- Chrome で CSP エラーがコンソールログで分かる
-
+	- Chrome で CSP エラーがコンソールログに出る
 ```
 <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'">
 ```
+
+- 早めに Firefox OS で動作確認
 
 ---
 ### その後どうしたか？
 - UI フレームワークは Intel App Framework に移行
 	- Firefox OS 対応済のフレームワーク
 - Kendo UI の MVVM は Knockout に移行
-	- CSP 通すのに [Knockout Secure Binding](https://github.com/brianmhunt/knockout-secure-binding) が必要。
+	- CSP 通すのに [Knockout Secure Binding](https://github.com/brianmhunt/knockout-secure-binding) が必要
 
 ---
 ### ちなみに、
@@ -439,8 +440,8 @@
 - そもそも、みんなどんな *.js 使ってるんだろう？
 
 ---
+### マーケットプレースのアプリで
 ## 調べてみました
-## みんなの好きな JS
 
 ---
 ### パッケージ型アプリで
