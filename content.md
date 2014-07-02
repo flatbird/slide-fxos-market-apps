@@ -436,85 +436,134 @@
 ### 思ったこと
 
 - JS ライブラリ沢山あるけど、どれが Firefox OS 向きなの？
-- そもそも、みんなどんなの使ってるんだろう？
+- そもそも、みんなどんな *.js 使ってるんだろう？
 
-<br>
-### 調べてみよう！<!-- .element: class="fragment" -->
+---
+## 調べてみました
+## みんなの好きな JS
 
 ---
 ### パッケージ型アプリで
-### よく使われている .js ファイル
+### よく使われている JS
 
 ---
-#### *.js in packaged apps
-#### Total: 2505
+<h4>JS in Packaged apps <span>(Total: 2505)</span></h4>
 
 | # | js | count | % | name | type |
 |---|----|-------|---|------|------|
-|1 | jquery.js | 1231 | 49.1% |  | dom|
-|2 | jquery.mobile.js | 388 | 15.4% |  | ui framework|
-|3 | c2runtime.js | 153 | 6.1% | Construct 2 | game engine|
-|4 | c2webappstart.js | 133 | 5.3% | Construct 2 | game engine|
-|5 | receiptverifier.js | 116 | 4.6% |  | boilerplate|
-|6 | require.js | 106 | 4.2% |  | utility|
-|7 | zepto.js | 104 | 4.1% |  | dom|
-|8 | l10n.js | 101 | 4.0% |  | utility|
-|9 | cordova.js | 101 | 4.0% | Cordova | hybrid|
-|10 | inneractive.js | 87 | 3.4% | inneractive | ad network|
+|1 | jquery.js | 1231 | 49.1% |  | |
+|2 | jquery.mobile.js | 388 | 15.4% |  | UI framework|
+|3 | c2runtime.js | 153 | 6.1% | Construct 2 | Game engine|
+|4 | c2webappstart.js | 133 | 5.3% | Construct 2 | Game engine|
+|5 | receiptverifier.js | 116 | 4.6% |  | |
+|6 | require.js | 106 | 4.2% |  | |
+|7 | zepto.js | 104 | 4.1% |  | |
+|8 | l10n.js | 101 | 4.0% |  | |
+|9 | cordova.js | 101 | 4.0% | Cordova | Hybrid|
+|10 | inneractive.js | 87 | 3.4% | Inneractive | Ad network|
 
 ---
-#### *.js in packaged apps (contd.)
+#### JS in Packaged apps (11~20)
 
 | # | js | count | % | name | type |
 |---|----|-------|---|------|------|
-|11 | bootstrap.js | 87 | 3.4% |  | ui framework|
-|12 | hmac-md5.js | 71 | 2.8% | CryptoJS | utility|
-|13 | cordova_plugins.js | 64 | 2.5% | Cordova | hybrid|
-|14 | underscore.js | 60 | 2.3% |  | utility|
-|15 | angular.js | 54 | 2.1% |  | mvx|
-|16 | modernizr.js | 47 | 1.8% |  | utility|
-|17 | seekbars.js | 43 | 1.7% | Building Blocks | ui framework|
-|18 | action_menu.js | 43 | 1.7% | Building Blocks | ui framework|
-|19 | backbone.js | 41 | 1.6% |  | mvx|
-|20 | idangerous.swiper.js | 37 | 1.4% | Swiper | ui control|
+|11 | bootstrap.js | 87 | 3.4% |  | UI framework|
+|12 | hmac-md5.js | 71 | 2.8% | CryptoJS | |
+|13 | cordova_plugins.js | 64 | 2.5% | Cordova | Hybrid|
+|14 | underscore.js | 60 | 2.3% |  | |
+|15 | angular.js | 54 | 2.1% |  | MVx |
+|16 | modernizr.js | 47 | 1.8% |  | |
+|17 | seekbars.js | 43 | 1.7% | Building Blocks | UI framework|
+|18 | action_menu.js | 43 | 1.7% | Building Blocks | UI framework|
+|19 | backbone.js | 41 | 1.6% |  | MVx|
+|20 | idangerous.swiper.js | 37 | 1.4% | Swiper | UI control|
 
 
 ---
 ### 特権 (privileged) アプリで
-### よく使われている .js ファイル
+### よく使われている JS
 
 ---
-#### *.js in privileged apps
-#### Total: 326
+#### JS in Privileged apps (Total: 326)
 
 | # | js | count | % | name | type |
 |---|----|-------|---|------|------|
-|1 | jquery.js | 180 | 55.2% |  | dom|
-|2 | receiptverifier.js | 57 | 17.4% |  | boilerplate|
-|3 | hmac-md5.js | 52 | 15.9% | CryptoJS | utility|
-|4 | jquery.mobile.js | 50 | 15.3% |  | ui framework|
-|5 | l10n.js | 36 | 11.0% |  | utility|
-|6 | require.js | 23 | 7.0% |  | utility|
-|7 | zepto.js | 21 | 6.4% |  | dom|
-|8 | cordova.js | 17 | 5.2% | Cordova | hybrid|
-|9 | underscore.js | 16 | 4.9% |  | utility|
-|10 | bootstrap.js | 15 | 4.6% |  | ui framework|
+|1 | jquery.js | 180 | 55.2% |  | |
+|2 | receiptverifier.js | 57 | 17.4% |  | |
+|3 | hmac-md5.js | 52 | 15.9% | CryptoJS | |
+|4 | jquery.mobile.js | 50 | 15.3% |  | UI framework|
+|5 | l10n.js | 36 | 11.0% |  | |
+|6 | require.js | 23 | 7.0% |  | |
+|7 | zepto.js | 21 | 6.4% |  | |
+|8 | cordova.js | 17 | 5.2% | Cordova | Hybrid|
+|9 | underscore.js | 16 | 4.9% |  | |
+|10 | bootstrap.js | 15 | 4.6% |  | UI framework|
 
 ---
-#### *.js in privileged apps (contd.)
+#### JS in Privileged apps (11~20)
 
 | # | js | count | % | name | type |
 |---|----|-------|---|------|------|
-|11 | cordova_plugins.js | 14 | 4.2% | Cordova | hybrid|
-|12 | angular.js | 13 | 3.9% |  | mvx|
-|13 | seekbars.js | 13 | 3.9% | Building Blocks | ui framework|
-|14 | backbone.js | 13 | 3.9% |  | mvx|
-|15 | enyo.js | 12 | 3.6% |  | ui framework|
+|11 | cordova_plugins.js | 14 | 4.2% | Cordova | Hybrid|
+|12 | angular.js | 13 | 3.9% |  | MVx|
+|13 | seekbars.js | 13 | 3.9% | Building Blocks | UI framework|
+|14 | backbone.js | 13 | 3.9% |  | MVx|
+|15 | enyo.js | 12 | 3.6% |  | UI framework|
 |16 | async_storage.js | 12 | 3.6% |  | Gaia/Shared|
-|17 | action_menu.js | 11 | 3.3% | Building Blocks | ui framework|
-|18 | jquery.transit.js | 8 | 2.4% |  | jquery plugin|
-|19 | offline.js | 8 | 2.4% |  | utility|
-|20 | md5.js | 8 | 2.4% | CryptoJS | utility|
+|17 | action_menu.js | 11 | 3.3% | Building Blocks | UI framework|
+|18 | jquery.transit.js | 8 | 2.4% |  | jQuery plugin|
+|19 | offline.js | 8 | 2.4% |  | |
+|20 | md5.js | 8 | 2.4% | CryptoJS | |
+
+---
+## UI Wiget Framework
+##### Packaged (Total: 2505)
+
+---
+#### UI Wiget Framework
+
+| # | js | count | % | name |
+|---|----|-------|---|------|
+|1 | jquery.mobile.js | 388 | 15.4% |  |
+|2 | bootstrap.js | 87 | 3.4% |  |
+|3 | seekbars.js | 43 | 1.7% | Building Blocks |
+|4 | action_menu.js | 43 | 1.7% | Building Blocks |
+|5 | jquery-ui.js | 33 | 1.3% |  |
+|6 | enyo.js | 19 | 0.7% |  |
+|7 | lungo.js | 14 | 0.5% |  |
+|8 | brick.js | 9 | 0.3% |  |
+|9 | appframework.ui.js | 5 | 0.1% | App Framework |
+|10 | ionic.js | 4 | 0.1% | Ionic |
+|11 | onsenui.js | 2 | 0.0% |  |
+|12 | kendo.mobile.js | 2 | 0.0% | &nbsp; |
+
+---
+## MVx
+
+---
+### MVx
+
+<style>
+.reveal .mvx-subtitle {
+	margin: 0 0 5px 0;
+}
+</style>
+
+<h5 class="mvx-subtitle">Packaged (Total: 2505)</h5>
+
+| # | js | count | % |
+|---|----|-------|---|
+|1 | angular.js | 54 | 2.1% |
+|2 | backbone.js | 41 | 1.6% |
+|3 | knockout.js | 36 | 1.4% |
+|4 | ember.js | 1 | 0.0% |
+
+<h5 class="mvx-subtitle">Privileged (Total: 326)</h5>
+
+| # | js | count | % |
+|---|----|-------|---|
+|1 | angular.js | 13 | 3.9% |
+|2 | backbone.js | 13 | 3.9% |
 
 ---
 ### ご清聴ありがとうございました！
