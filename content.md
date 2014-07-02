@@ -220,9 +220,9 @@
 </ul>
 
 ---
-## ジレンマ
 ### 市場がなければアプリは増えない
 ### アプリがなければ市場シェア増えない
+### → ジレンマ
 
 ---
 ## そこで・・・
@@ -514,7 +514,7 @@
 |17 | action_menu.js | 11 | 3.3% | Building Blocks | UI framework|
 |18 | jquery.transit.js | 8 | 2.4% |  | jQuery plugin|
 |19 | offline.js | 8 | 2.4% |  | |
-|20 | md5.js | 8 | 2.4% | CryptoJS | |
+|20 | md5.js | 8 | 2.4% | CryptoJS | &nbsp; |
 
 ---
 ## UI Wiget Framework
@@ -565,6 +565,15 @@
 |---|----|-------|---|
 |1 | angular.js | 13 | 3.9% |
 |2 | backbone.js | 13 | 3.9% |
+
+---
+### パッケージ型アプリの
+### 開発情報共有しましょう！
+
+<ul>
+	<li><h3> Firefox OS 勉強会 </h3></li>
+	<li><h3> html5j - Webプラ部 勉強会 </h3></li>
+</ul>
 
 ---
 ### ご清聴ありがとうございました！
